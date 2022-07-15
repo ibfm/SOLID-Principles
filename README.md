@@ -6,8 +6,8 @@ The acronym was created by Michael Feathers after noting that five principles of
 
 ### S.O.L.I.D: The 5 Principles of OOP
 #### S — Single Responsibility Principle
-##### | A class should have only one responsibility hence only a single purpose |
-##### | Benefits: Understandable, Maintenable and Less Frequently Changed
+##### 1 - A class should have only one responsibility hence only a single purpose |
+##### 2 - Benefits: Understandable, Maintenable and Less Frequently Changed
 #### O — Open-Closed Principle
 #### L — Liskov Substitution Principle
 #### I — Interface Segregation Principle
