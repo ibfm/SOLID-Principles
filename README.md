@@ -4,7 +4,8 @@
 SOLID is an acronym created by Michael Feathers after noting that five principles of object orientation and code design — created by Robert C. Martin (a.k.a. Uncle Bob) and covered in The Principles of OOD — could fit this word.
 
 ### S.O.L.I.D: The 5 Principles of OOP
-## S — Single Responsibility Principle
+#### S — Single Responsibility Principle
+##### a class should have only one responsibility hence only a single purpose
 ## O — Open-Closed Principle
 ## L — Liskov Substitution Principle
 ## I — Interface Segregation Principle
