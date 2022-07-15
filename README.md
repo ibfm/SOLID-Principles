@@ -6,8 +6,6 @@ The acronym was created by Michael Feathers after noting that five principles of
 
 ### S.O.L.I.D: The 5 Principles of OOP
 #### S — Single Responsibility Principle
-##### 1 - A class should have only one responsibility hence only a single purpose |
-##### 2 - Benefits: Understandable, Maintenable and Less Frequently Changed
 #### O — Open-Closed Principle
 #### L — Liskov Substitution Principle
 #### I — Interface Segregation Principle
@@ -15,7 +13,7 @@ The acronym was created by Michael Feathers after noting that five principles of
 
 These principles help the programmer to write cleaner code, separating responsibilities, reducing coupling, facilitating refactoring and encouraging code reuse.
 
-### Robert Martin commandments
+### Robert C. Martin Commandments
 
 1. Software entities (classes, modules, etc) should be open for
 extension, but closed for modification. (The open/closed
