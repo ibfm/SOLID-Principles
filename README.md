@@ -1,19 +1,34 @@
 # SOLID Principles
 
-### What is SOLID?
 SOLID is an acronym for the most popular design principles for object-oriented software development.
 The acronym was created by Michael Feathers after noting that five principles of object orientation and code design — created by Robert C. Martin (a.k.a. Uncle Bob) and covered in The Principles of OOD — could fit this word.
-
-### S.O.L.I.D: The 5 Principles of OOP
-#### S — Single Responsibility Principle
-#### O — Open-Closed Principle
-#### L — Liskov Substitution Principle
-#### I — Interface Segregation Principle
-#### D — Dependency Inversion Principle
-
 These principles help the programmer to write cleaner code, separating responsibilities, reducing coupling, facilitating refactoring and encouraging code reuse.
 
-### Robert C. Martin Commandments
+| Acronym | Name | Description |
+| ------------ | ------------|  ------------|
+| SRP | The Single Responsibility Principle | A class should have one, and only one, reason to change. |
+| OCP | The Open Closed Principle | You should be able to extend a classes behavior, without modifying it. |
+| LSP | The Liskov Substitution Principle | Derived classes must be substitutable for their base classes.|
+| ISP | The Interface Segregation Principle | Make fine grained interfaces that are client specific.|
+| DIP | The Dependency Inversion Principle | Depend on abstractions, not on concretions.|
+
+#### The first three package principles are about package cohesion, they tell us what to put inside packages:**
+
+| Acronym | Name | Description |
+| ------------ | ------------|  ------------|
+| REP | The Release Reuse Equivalency | Principle	The granule of reuse is the granule of release.|
+| CCP | The Common Closure Principle | Classes that change together are packaged together.|
+| CRP | The Common Reuse Principle | Classes that are used together are packaged together.|
+
+#### The last three principles are about the couplings between packages, and talk about metrics that evaluate the package structure of a system.**
+
+| Acronym | Name | Description |
+| ------------ | ------------|  ------------|
+| ADP | The Acyclic Dependencies Principle | The dependency graph of packages must have no cycles.|
+| SDP | The Stable Dependencies Principle | Depend in the direction of stability.|
+| SAP | The Stable Abstractions Principle | Abstractness increases with stability.|
+
+## Robert C. Martin Commandments
 
 1. Software entities (classes, modules, etc) should be open for
 extension, but closed for modification. (The open/closed
